@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<math.h>
+int main(){
+ int horas, minutos, segundos;
+    
+    printf("Digite aqui as horas: ");
+    scanf("%i", &horas); 
+    
+    
+    minutos = horas*60;
+    segundos = minutos*60;
+    printf("Minutos %i: e Segundos %i",minutos,segundos);
+    
+    
+    
+
+
+
+
+    return 0;   
+}
