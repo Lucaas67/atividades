@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+double x1, x2, x3, resultado; 
+    
+    printf("Digite um valor:\n ");
+    scanf("%lf", &x1);
+    printf("Digite um valor:\n ");
+    scanf("%lf", &x2);
+    printf("Digite um valor:\n ");
+    scanf("%lf", &x3); 
+    
+    resultado = (x1 + x2 + x3)/ 3;
+    printf("Resultado %lf", resultado);
+    
+    
+
+
+
+    return 0;
+}
