@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+char nome, sexo;
+double matricula, horasTrabalhadas, recebimentoPorHora, salario;
+    
+	printf("nome: ");
+    scanf("%lf", &nome);
+    printf("matricula: ");
+    scanf("%lf", &matricula);
+    printf("horasTrabalhadas: ");
+    scanf("%lf", &horasTrabalhadas);
+    printf("recebimentoPorHora: ");
+    scanf("%lf", &recebimentoPorHora);
+    printf("salario: ");
+    scanf("%lf", &salario);
+    
+    
+    salario = horasTrabalhadas*recebimentoPorHora;
+    printf("Salario: %lf", salario);
+
+    
+    return 0;
+}
