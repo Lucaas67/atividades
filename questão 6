@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+double notaA, notaB, media;
+    
+    printf("Digite o valor da nota A: \n ");
+    scanf("%lf", &notaA);
+    printf("Digite o valor da nota B: ");
+    scanf("%lf", &notaB);
+    
+    media = (notaA*3.5) + (notaB*7.5)/ 2;
+    printf("Media final:  %lf \n", media);
+    
+    return 0;
+} 
