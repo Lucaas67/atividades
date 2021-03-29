@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+int fios, rolos, avulsos; 
+    
+    printf("Digite a quantidade de fios: ");
+    scanf("%i", &fios);
+    
+    rolos = fios/50;
+    printf("rolos: %i \n", rolos);
+    avulsos = (rolos*50) - fios;
+    printf("avulsos: %i", avulsos);
+    
+    return 0;
+} 
